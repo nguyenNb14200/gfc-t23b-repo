@@ -1,0 +1,5 @@
+digraph G {
+  a [image="http://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-gv-http.png"];
+  b [image="https://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-gv-https.png"];
+  a -> b;
+}
