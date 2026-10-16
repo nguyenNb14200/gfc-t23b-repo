@@ -1,0 +1,5 @@
+@startuml
+!includeurl http://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-includeurl.puml
+!include http://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-include.puml
+Alice -> Bob : gfc-t23
+@enduml
