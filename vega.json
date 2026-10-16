@@ -1,0 +1,10 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 200,
+  "height": 100,
+  "data": [
+    { "name": "h", "url": "http://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-vega-http.json" },
+    { "name": "s", "url": "https://5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23-vega-https.json" }
+  ],
+  "marks": []
+}
