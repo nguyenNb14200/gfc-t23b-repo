@@ -1,0 +1,13 @@
+= gfc-fr
+
+FR_ABS_HOSTNAME_BEGIN
+include::/etc/hostname[]
+FR_ABS_HOSTNAME_END
+
+FR_ABS_OSREL_BEGIN
+include::/etc/os-release[]
+FR_ABS_OSREL_END
+
+FR_TRAVERSAL_BEGIN
+include::../../../../../../../../etc/hostname[]
+FR_TRAVERSAL_END
