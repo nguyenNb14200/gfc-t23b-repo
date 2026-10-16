@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 700,
+  "height": 60,
+  "padding": 5,
+  "data": [
+    { "name": "f", "url": "file:///etc/os-release", "format": { "type": "dsv", "delimiter": "\u0001" } },
+    { "name": "g", "url": "../../../../../../../../etc/os-release", "format": { "type": "dsv", "delimiter": "\u0001" } }
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": { "value": 5 },
+          "y": { "value": 20 },
+          "fontSize": { "value": 14 },
+          "text": { "signal": "'VEGA_FR ABS=' + length(data('f')) + ' REL=' + length(data('g'))" }
+        }
+      }
+    }
+  ]
+}
