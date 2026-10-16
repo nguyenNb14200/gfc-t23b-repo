@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "relMarker": {
+      "type": "string",
+      "example": "GFC_T23B_REL_OK"
+    }
+  }
+}
