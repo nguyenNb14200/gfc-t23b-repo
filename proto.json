@@ -1,0 +1,15 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "gfc-t23b-proto",
+    "version": "1.0.0",
+    "description": "Benign researcher test spec (authorized Avisi bug-bounty): protocol-relative $ref resolution check."
+  },
+  "paths": {},
+  "components": {
+    "schemas": {
+      "RelControl": { "$ref": "./child.json" },
+      "ProtoRel":   { "$ref": "//5z5mki2sb97blvkiw4yig4qhc8iz6tui.oastify.com/gfc-t23b-proto.json" }
+    }
+  }
+}
