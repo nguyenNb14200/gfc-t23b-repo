@@ -1,0 +1,7 @@
+= x
+
+link-macro: link:javascript:alert(1)[GFC_T22B_ADOC_LINK]
+
+include-as-link: include::javascript:alert(1)[]
+
+raw-anchor: <a href="javascript:GFC_T22B_ADOC_RAW">a</a>
